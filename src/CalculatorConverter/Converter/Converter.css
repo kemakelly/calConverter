@@ -1,0 +1,98 @@
+.converter{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding: 2rem 1rem;
+}.form{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+.inputGroup{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: .5rem;
+}
+.inputGroup input{
+    width: 100%;
+    padding: .8rem;
+    outline: none;
+    border: none;
+    border-radius: .5rem;
+}
+.formsection{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: last baseline;
+    padding: 1rem 0;
+}
+.submitbut{
+    width: 100%;
+    height: auto;
+    outline: none;
+    border: none;
+    padding: .8rem;
+    border-radius: .5rem;
+    background-color:#029689;
+    color: #fff;
+    font-weight: 500;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+.submitbut:hover{
+    background-color: #028277;
+}
+.exchangeresult{
+    padding: 1rem 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    
+}
+.exchangeresult.loading{
+    opacity: .5;
+    pointer-events: none;
+}
+.currencyselects{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: .3rem;
+    border-radius: .3rem;
+    column-gap: .3rem;
+    cursor: pointer;
+}
+img{
+    width: 2rem;
+    height: 2rem;
+}
+.swap{
+    width: 2rem;
+    height: 2rem;
+    border: 1px solid #029689;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}

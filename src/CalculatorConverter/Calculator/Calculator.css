@@ -1,0 +1,134 @@
+.calcontainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.screen input{
+    width: 18rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: .5rem;
+    outline: none;
+    border: none;
+    font-size: 3rem;
+    padding: .5rem ;
+    
+}
+.screen input:hover{
+    background-color: #ebebeb;
+}
+.calccontent{
+    width: 100%;
+    height: auto;
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.signs{
+    width: 100%;
+    height: auto;
+    padding: .5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: .5rem;
+}
+.signs input {
+    width: 4rem;
+    height: auto;
+    padding: 1rem;
+    border-radius: .5rem;
+    cursor: pointer;
+    outline: none;
+    border: none;
+
+    
+}
+.nums{
+    width: 100%;
+    height: auto;
+    padding: .5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: .5rem;
+
+}
+.nums input{
+    width: 4rem;
+    height: auto;
+    padding: 1rem;
+    border-radius: .5rem;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+.yellow {
+ background-color:rgb(218, 142, 1) ;
+ color: #fff;
+}
+.num{
+    width: 100%;
+    height: auto;
+    padding: .5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: .5rem;
+    
+}
+.zero{
+   width: 8.5rem;
+
+   height: auto;
+   padding: 1rem;
+   border-radius: .5rem;
+   cursor: pointer;
+   outline: none;
+   border: none;
+   background-color: #ebebeb;
+}
+.dot{
+    width: 4rem;
+    height: auto;
+    padding: 1rem;
+    border-radius: .5rem;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background-color: #ebebeb;
+}
+.ac{
+    background-color: #dcdcdc;  
+}
+.dc{
+    background-color: #dcdcdc;
+}
+.cent{
+    background-color: #dcdcdc;
+}
+.yellow{
+    
+    width: 4rem;
+    height: auto;
+    padding: 1rem;
+    border-radius: .5rem;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+input:hover{
+    background-color: #acacac;
+}

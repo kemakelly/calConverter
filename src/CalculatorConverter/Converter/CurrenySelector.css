@@ -1,0 +1,58 @@
+.currencySelect{
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.inputg{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+.currencyselect{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items:center;
+    column-gap: .5rem;
+    border: .5px solid #029689;
+    padding: .2rem;
+    margin-top: .5rem;
+    border-radius: .4rem;
+    background:#029689;
+}
+.currencydropdown{
+    outline: none;
+    border: none !important;
+
+   
+}
+img{
+    width: 2rem;
+    height: 2rem;
+}
+
+
+@media (max-width: 480px) {
+    .currencySelect {
+        justify-content: center; 
+        padding: 0.5rem;
+    }
+
+    .currencyselect {
+        width: 100%; 
+        justify-content: center;
+    }
+
+    .inputg {
+        align-items: center; 
+    }
+}
